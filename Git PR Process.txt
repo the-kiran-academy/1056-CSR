@@ -1,0 +1,51 @@
+1. How to allocate project to Developer   
+2. How to clone (get) that project in developer machine 
+
+3. How to assign task to developer 
+
+4. How to complete task from developer side
+	> how to create new sub-branch for assigned task  > git checkout -b sub-branch-name 
+
+5. How to complete & submit task from developer side
+	> Complete Task 
+	> Check status of code  > git status
+	> How to add completed code  > git add file-path 
+	> How to commit added code >   git commit -m "commit-msg"   
+	> How to push commited code into sub-branch   > git push -u origin sub-branch-name
+	
+6. How to create PR for sub-branch  >> from browser
+7. How to add reviewer to review your code  >> from browser
+
+8. From Reviewer side reviewer review your code 
+	> May be approve 
+	> May be suggest for code changes
+	
+9. If Code changes
+	> from developer side developer will modify code as per suggestion
+	> add modified code   > git add file-path
+	> commit modified code  > git commit -m "commit-msg"
+	> push commited code  > git push -u origin sub-branch-name
+	
+10. If PR Approved
+	> from developer side developer will merge PR (sub-branch) into Main branch   > from browser
+	
+----------------------------------------------------------------------------------------------
+
+How to just switch branch
+>  git checkout branch-name	
+
+How to check how many local branches
+> git branch
+
+
+How to check difference in file
+> git diff file-path
+
+
+
+	
+	
+	
+	
+
+	
